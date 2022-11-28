@@ -2,10 +2,7 @@
 
 ## Understanding the Box Model using the Developer Tools
 
-1. In the browser's developer tools, inspect the green box below.
-
-   (The "Inspect Element" in Chrome menu might not work:
-   you'll need to open developer tools first, then select the box.)
+1. In the browser's developer tools, inspect a website's page and find a box-level item such as a `div` or `p`.
 
 2. Locate the box model. (In Chrome, under _Styles_ it's at the bottom; under _Computed_ it's at the top.)
 
@@ -20,21 +17,6 @@
 
 5. Change the `margin` property so that all four sides have different margins.
 
-
-<style>
-.box-model-demo {
-	width: 200px;
-	height: 100px;
-	border: 4px solid blueviolet;
-	padding: 20px;
-	background-color: #c2ce89;
-	margin: 15px;
-}
-</style>
-
-<div class="box-model-demo">
-Content
-</div>
 
 
 ## Creating a Box
